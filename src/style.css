@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
+html, body {
+    overflow-x: hidden;
+}
+
 .btn{
     @apply bg-gray-400 
     border rounded-full 
     px-4 py-1 m-5 
     text-sm text-white
     hover:text-white 
-    hover:border-transparent
+    hover:border-transparent;
+}
+
+.container {
+    @apply px-6 py-12 max-w-7xl mx-auto mt-16 lg:px-8 lg:mt-32;
 }
