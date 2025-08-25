@@ -1,5 +1,5 @@
 <template>
-  <nav class="p-3 flex bg-white justify-between items-center">
+  <nav class="p-3 flex bg-white justify-between items-center fixed top-0 left-0 right-0">
     <a href="#" id="brand" class="flex gap-2 items-center flex-1">
       <img src="../../public/img/pngegg.png" alt="NARUTO" class="object-cover max-w-12 max-h-12">
       <span class="text-2xl font-medium">Supper Man</span>
@@ -64,9 +64,7 @@ export default {
 
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-span{
-  font-family: Roboto;
+nav{
+  z-index: 100;
 }
 </style>

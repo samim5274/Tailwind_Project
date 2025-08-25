@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div id="hero" class="bg-gradient-to-br from-purple-50 via-orange-100 to-transparent">
+    <div id="hero" class="bg-gradient-to-br from-purple-50 via-orange-100 to-transparent pt-16">
       <div id="hero-container" class="max-w-4xl mx-auto px-6 pt-6 pb-32 flex flex-col sm:items-center sm:text-center sm:pt-12">
         
         <div id="version-text" class="flex my-6 gap-2 items-center border border-yellow-300 bg-yellow-50 px-3 py-1 w-fit rounded-lg shadow-md hover:shadow-lg hover:-translate-y-1 transition group">
