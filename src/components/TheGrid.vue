@@ -1,6 +1,6 @@
 <template>
   <div id="bento-grid" class="container">
-    <h2 class="text-5xl sm:font-semibold mb-14">ToDesktop handles
+    <h2 class="text-5xl sm:font-semibold mb-14 max-w-2xl">ToDesktop handles
 the details</h2>
     <div id="grid-container" class="flex flex-col gap-6 lg:grid lg:grid-cols-3" style="grid-auto-rows: 96px;">
 

@@ -5,6 +5,12 @@
   <TheWork></TheWork>
   <TheCard></TheCard>
   <TheFeature></TheFeature>
+  <TheTestimonial></TheTestimonial>
+  <TheTestimonial2></TheTestimonial2>
+  <TheBigCard></TheBigCard>
+  <ThePrice></ThePrice>
+  <TheFAQ></TheFAQ>
+  <TheFooter></TheFooter>
 </template>
 
 <script>
@@ -14,6 +20,12 @@ import TheSlide from './components/TheSlide.vue';
 import TheWork from './components/TheWork.vue';
 import TheCard from './components/TheGrid.vue';
 import TheFeature from './components/TheFeature.vue';
+import TheTestimonial from './components/TheTestimonial.vue';
+import TheTestimonial2 from './components/TheTestimonial-2.vue';
+import TheBigCard from './components/TheBigCard.vue';
+import ThePrice from './components/ThePriceing.vue';
+import TheFAQ from './components/TheFAQ.vue';
+import TheFooter from './components/TheFooter.vue';
 
 export default{
   components: {
@@ -23,6 +35,12 @@ export default{
     TheWork,
     TheCard,
     TheFeature,
+    TheTestimonial,
+    TheTestimonial2,
+    TheBigCard,
+    ThePrice,
+    TheFAQ,
+    TheFooter,
   }
 }
 </script>

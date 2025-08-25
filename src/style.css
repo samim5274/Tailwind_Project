@@ -14,5 +14,18 @@ html, body {
 }
 
 .container {
-    @apply px-6 py-12 max-w-7xl mx-auto mt-16 lg:px-8 lg:mt-32;
+    @apply px-6 py-12 max-w-7xl mx-auto mt-10 lg:px-8 lg:mt-20;
+}
+
+.ancher-hover {
+    @apply border-b border-dotted border-y-gray-300 hover:border-solid
+    hover:border-blue-500 hover:text-gray-800
+}
+
+.gradient-hover {
+    @apply hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200
+}
+
+.gradient-hover-group {
+    @apply group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50
 }
